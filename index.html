@@ -2,13 +2,32 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>kira1q.dev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | kira1q.dev</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="container">
-        <h1>kira1q.dev</h1>
-        <p>Made by kira1q!</p>
+        <h1>Welcome Back!</h1>
+        <p>Bitte logge dich in dein Dashboard ein.</p>
+        
+        <form id="loginForm" novalidate>
+    <div class="input-group">
+        <input type="username" id="username" placeholder="Username" required>
     </div>
+    
+    <div class="input-group">
+        <input type="password" id="password" placeholder="Password" required>
+    </div>
+    
+    <button type="submit" class="btn">Einloggen</button>
+</form>
+        
+        <div class="footer-links">
+            <a href="#">Login vergessen?</a>
+        </div>
+    </div>
+
 </body>
-</html> 
+</html>
