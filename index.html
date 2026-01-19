@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | kira1q.dev</title>
+    <title>登录 | kira1q.dev</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <h1>Welcome Back!</h1>
-        <p>Bitte logge dich in dein Dashboard ein.</p>
+        <h1>欢迎回来！</h1>
+        <p>请登录您的控制面板。</p>
         
         <form id="loginForm" novalidate>
-    <div class="input-group">
-        <input type="username" id="username" placeholder="Username" required>
-    </div>
-    
-    <div class="input-group">
-        <input type="password" id="password" placeholder="Password" required>
-    </div>
-    
-    <button type="submit" class="btn">Einloggen</button>
-</form>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="用户名" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="password" placeholder="密码" required>
+            </div>
+            
+            <button type="submit" class="btn">登录</button>
+        </form>
         
         <div class="footer-links">
-            <a href="#">Login vergessen?</a>
+            <a href="#">忘记登录信息？</a>
         </div>
     </div>
 
 </body>
-
 </html>
